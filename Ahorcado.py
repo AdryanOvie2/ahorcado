@@ -46,7 +46,7 @@ def ahorcado():
                 vidas -= 1
                 print(f"\nTu letra, {letra_usuario} no está en la palabra.")
         elif letra_usuario in letra_usuario:
-            print("\nYa escogiste esa letra. Por favor escoge una letra nueva.")
+            print("\nYa escogiste esa letra. Por favor escoge una letra nueva.\n")
         else:
             print("\nEsta letra no es válida.")
 
