@@ -1,0 +1,1 @@
+palabras = ["aire", "casa", "murcielago", "sensación", "deporte", "programación", "carrera", "ciudad", "regalo", "delito", "viaje", "esternocleidomastoideo", "asere", "Sushi", "cuba", "frankeinsten"]
