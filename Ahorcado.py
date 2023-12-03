@@ -28,7 +28,7 @@ def ahorcado():
     vidas = 7
 
     while len(letras_por_adivinar) > 0 and vidas > 0:
-        print(f"Te quedan {vidas} y has usado estas letras: {' '.join(letras_adivinadas)}")
+        print(f"Te quedan {vidas} vida(s) y has usado estas letras: {' '.join(letras_adivinadas)}")
 
         palabra_lista = [letra if letra in letras_adivinadas else '-' for letra in palabra]
         print(vidas_diccionario_visual[vidas])
@@ -52,7 +52,7 @@ def ahorcado():
 
     if vidas == 0:
         print(vidas_diccionario_visual[vidas])
-        print(f"\n¡Ahorcado! Perdiste. Lo siento mucho. La palabra era {palabra}")
+        print(f"\n¡Ahorcad@! Perdiste. Lo siento mucho. La palabra era {palabra}")
     else:
         print(f"¡Excelente! ¡Adivinaste la palabra {palabra}!")
 
