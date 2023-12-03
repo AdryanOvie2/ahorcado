@@ -1,4 +1,5 @@
 import random
+import string
 
 from palabras import palabras
 
@@ -18,3 +19,9 @@ def ahorcado():
     print("============================================")
 
     palabra = obtener_palabra_valida(palabras)
+
+    letras_por_adivinar = set(palabra)
+    letras_adivinadas = set()
+    abc = set(string.ascii_uppercase)
+
+    vidas = 7
